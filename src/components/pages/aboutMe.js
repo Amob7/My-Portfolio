@@ -11,7 +11,7 @@ export default function AboutMe() {
                     width = "500"
                     src = { PortPic }
                     alt = 'Picture of Eric Courter'/>
-                <p className='align-self-center pt-5 ms-5'>My name is Eric and I will add more to this later :I</p>
+                <p className='align-self-center pt-5 ms-5'>My name is Eric Courter and I am a Full-Stack Web Developer. I am ready and eager to learn more about coding applications. I am in the process of creating as many projects as I can so I can further increase my knowledge and understanding of Computer Science.</p>
             </div>
         </div>
     );
