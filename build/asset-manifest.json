@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Amob7.io/My-Portfolio/static/css/main.9bd7a35e.css",
+    "main.js": "/Amob7.io/My-Portfolio/static/js/main.3d99f27c.js",
+    "static/media/PortPic.jpg": "/Amob7.io/My-Portfolio/static/media/PortPic.32973e0d5b113312b138.jpg",
+    "static/media/pixel-battle.PNG": "/Amob7.io/My-Portfolio/static/media/pixel-battle.5ee5cef6ad6ac72b38f9.PNG",
+    "index.html": "/Amob7.io/My-Portfolio/index.html",
+    "main.9bd7a35e.css.map": "/Amob7.io/My-Portfolio/static/css/main.9bd7a35e.css.map",
+    "main.3d99f27c.js.map": "/Amob7.io/My-Portfolio/static/js/main.3d99f27c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd7a35e.css",
+    "static/js/main.3d99f27c.js"
+  ]
+}
