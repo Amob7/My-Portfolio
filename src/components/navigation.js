@@ -1,52 +1,60 @@
 import React from 'react';
 
 //Nav function to handle funcionality between cycling through pages and attatching links to them and exports
-export default function Navagation({ currentPage, handlePage }) {
+function Navagation({ currentPage, pageChange }) {
     return (
-        <ul>
+        <ul className='navbar-nav flex-row fs-4'>
             {/* Handles the AboutMe tab */}
-            <li>
+            <li className='nav-item p-2'>
                 <a
-                    href= '#aboutMe'
-                    onClick= {() => handlePage('AboutMe')}
+                    href= '#AboutMe'
+                    onClick= {() => pageChange('AboutMe')}
                     
-                    className= {currentPage === 'AboutMe'}
+                    className= {currentPage === 'AboutMe'
+                    ? 'text-decoration-none fw-bold text-info'
+                    : 'text-decoration-none text-info'}
                 >
                 About Me
                 </a>
             </li>
 
             {/* Handles the Portfolio tab */}
-            <li>
+            <li className='nav-item p-2'>
                 <a
-                    href= '#portfolio'
-                    onClick= {() => handlePage('Portfolio')}
+                    href= '#Portfolio'
+                    onClick= {() => pageChange('Portfolio')}
                     
-                    className= {currentPage === 'Portfolio'}
+                    className= {currentPage === 'Portfolio'
+                    ? 'text-decoration-none fw-bold text-info'
+                    : 'text-decoration-none text-info'}
                 >
                 Portfolio
                 </a>
             </li>
 
             {/* Handles the Contact tab */}
-            <li>
+            <li className='nav-item p-2'>
                 <a
-                    href= '#contact'
-                    onClick= {() => handlePage('Contact')}
+                    href= '#Contact'
+                    onClick= {() => pageChange('Contact')}
                     
-                    className= {currentPage === 'Contact'}
+                    className= {currentPage === 'Contact'
+                    ? 'text-decoration-none fw-bold text-info'
+                    : 'text-decoration-none text-info'}
                 >
                 Contact
                 </a>
             </li>
 
             {/* Handles the Resume tab */}
-            <li>
+            <li className='nav-item p-2'>
                 <a
-                    href= '#resume'
-                    onClick= {() => handlePage('Resume')}
+                    href= '#Resume'
+                    onClick= {() => pageChange('Resume')}
                     
-                    className= {currentPage === 'Resume'}
+                    className= {currentPage === 'Resume'
+                    ? 'text-decoration-none fw-bold text-info'
+                    : 'text-decoration-none text-info'}
                 >
                 Resume
                 </a>
@@ -54,3 +62,5 @@ export default function Navagation({ currentPage, handlePage }) {
         </ul>
     )
 }
+
+export default Navagation;

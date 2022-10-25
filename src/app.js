@@ -1,9 +1,5 @@
-import portFolder from './components/portFolder.js';
+import PortFolder from './components/portFolder';
 
-export default function App() {
-    return (
-        <div>   
-            <portFolder />
-        </div>
-    )
-}
+const App = () => <PortFolder />;
+
+export default App;
